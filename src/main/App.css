@@ -1,0 +1,31 @@
+.App{
+  display: grid;
+    grid-template-columns: 220px 1fr 220px;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 12px;
+    grid-template-areas:
+    "header header header"
+    "nav content aside"
+    "footer footer footer";
+    height: 100vh;
+}
+.header{
+  grid-area: header;
+  background-color: teal;
+}
+.menu{
+  grid-area: nav;
+  background-color: tomato;
+}
+.content{
+  grid-area: content;
+  background-color: lightblue;
+}
+.aside{
+  grid-area: aside;
+  background-color: orange;
+}
+.footer{
+  grid-area: footer;
+  background-color: lightgreen;
+}
