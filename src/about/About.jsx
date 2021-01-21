@@ -1,7 +1,7 @@
 import React from 'react'
 
 const About = props => (
-    <div className='content'>
+    <div>
         <h2>Nossa História</h2>
         <p>Lorem ipsum dolor sit amet...</p>
         <h2>Missão e Visão</h2>

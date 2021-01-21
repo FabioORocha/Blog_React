@@ -1,10 +1,9 @@
 import React from 'react'
+import Card from '../Components/Card'
 
 const Home = props => (
-    <div className='content'>
-        <p>
-            Home
-        </p>
+    <div>
+        <Card/>
     </div>
 )
 
